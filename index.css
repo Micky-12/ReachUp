@@ -6,11 +6,12 @@ body{
     background-color: rgb(116, 100, 81);
     text-align: right;
     height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     padding-inline: 30px;
 }
 input{
@@ -56,10 +57,13 @@ img{
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+    font-size: 60px;
     
 }
-.intro p{
-    font-size: 60px;
+h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
