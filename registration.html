@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<style >
+    body{
+        background-image: url('C:\Users\SANUJA\Downloads\mountai.jpg');
+        background-size: 100px;
+        background-color: rgb(241, 225, 147);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+    }
+    textarea{
+        width: 500px;
+        height:150px;
+        border-radius:15px;
+    }
+    .rap{
+        width: 500px;
+        height: 500px;
+        margin-left: 30%;
+    
+    }
+    h1{
+        font-size:36px;
+        text-align: center;
+    }
+    
+    .rap input{
+        width: 500px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    ::placeholder{
+        margin-left: 10%;
+    }
+    .in1{
+        width: 600px;
+        height: 100px;
+    }
+    
+    select{
+        width: 499px;
+        height: 50px;
+        border-radius:25px;
+    }
+
+    button{
+        width: 500px;
+        height: 50px;
+        border-radius:25px;
+        background-color: rgb(142, 91, 40)n; 
+        font-size: 30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif       
+    }
+    
+</style >
+<body>
+    <h1>Register Here!</h1>
+    <form class="rap">    
+        <input type="text" name="First Name" placeholder=" First name"><br><br>
+        <input type="text" name="Last Name"placeholder=" Last name"><br><br>
+        <input type="text" name="Location" placeholder=" Location"><br><br>
+        <input type="text" name="Product Name" placeholder=" Product Name"><br><br>
+        <input type="password" name="Password" maxlength="8" placeholder="Password"><br><br>
+        
+        <label> Domain: </label><br>
+        <select>
+            <option value="Select">Select</option>
+            <option value="Technology">Technology</option>
+            <option value="Education">Education</option>
+            <option value="E-Commerce">E-Commerce</option>
+            <option value="Health Care">Health Care</option>
+            <option value="Finance">Finance</option>
+            <option value="Others">Others</option>
+        </select>
+        <br><br>
+        <label name="logo"> Upload Your Logo:</label>
+        <input type="file" value="Upload file" name="logo"><br><br>  
+        <label name="proof"> Your Registered Proof: </label>
+        <input type="file"  text-align="center" value="Upload file" name="proof"><br><br>
+        <textarea rows="5" cols="50" name="description"  placeholder="Enter description here...."></textarea><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
